@@ -85,7 +85,6 @@ public class BinarryTree {
         while (successor.left != null) {
             successorParent = successor;
             successor = successor.left;
-
         }
 
         if (successor != del.right) {
